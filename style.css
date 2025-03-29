@@ -1,27 +1,26 @@
 body {
+    background-color: #f5f8fa;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 .container {
-    max-width: 700px;
-    margin: 40px auto;
-    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .card {
     background-color: white;
-    border-radius: 8px;
-    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
     text-align: center;
 }
 
-h1, h2, h3 {
-    margin: 10px 0;
+.intro {
+    margin-bottom: 40px;
 }
 
 .profile-pic {
@@ -31,38 +30,45 @@ h1, h2, h3 {
     margin: 20px 0;
 }
 
+h1, h2, h3 {
+    font-weight: bold;
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin: 10px 0;
+}
+
 .button {
     display: inline-block;
     padding: 10px 20px;
-    margin: 10px 0;
-    background-color: #5f5fc4;
+    margin-top: 15px;
+    background-color: #6c63ff;
     color: white;
-    border-radius: 5px;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    border-radius: 5px;
 }
 
 .button:hover {
-    background-color: #4b4b93;
+    background-color: #5848c2;
 }
 
-.social ul {
+.social-icons {
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
+    gap: 15px;
 }
 
-.social li {
-    margin: 0 10px;
-}
-
-.social a {
-    color: #0077cc;
+.social-icons li a {
+    color: #666;
+    font-size: 24px;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
-.social a:hover {
-    color: #005fa3;
+.social-icons li a:hover {
+    color: #333;
 }
