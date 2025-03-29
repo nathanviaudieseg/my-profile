@@ -5,104 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil de Nathan Viaud</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        header, footer {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        h1, h2, h3 {
-            color: #333;
-        }
-
-        .profile-pic {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin: 20px 0;
-        }
-
-        .social {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        .social li {
-            margin: 0 10px;
-        }
-
-        .social a {
-            text-decoration: none;
-            color: #0077cc;
-            transition: color 0.3s ease;
-        }
-
-        .social a:hover {
-            color: #005fa3;
-        }
-
-        .about, .interests, .projects {
-            margin-bottom: 20px;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Hello, I'm Nathan Viaud</h1>
-            <p>Passionate about web development, digital marketing, and sports.</p>
-            <img src="profile.jpg" alt="Nathan Viaud" class="profile-pic">
-        </header>
+        <div class="card">
+            <h1>Hello, I'm Nathan Viaud 😎</h1>
+            <img src="profile.jpg" alt="Photo de Nathan Viaud" class="profile-pic">
+            <p>Je suis passionné par le développement web, le marketing digital et les nouvelles technologies. Actuellement en dernière année de master en marketing digital et innovation.</p>
+            <a href="#" class="button">Discover My Projects</a>
+        </div>
 
-        <section class="about">
-            <h2>About Me</h2>
-            <p>Final year master's student in digital marketing and innovation, interested in web projects and new technologies. I enjoy sharing my knowledge and helping others to progress.</p>
-        </section>
+        <div class="card">
+            <h2>Web Development 💻</h2>
+            <p>I am passionate about Web Development.</p>
+        </div>
 
-        <section class="interests">
-            <h2>My Interests</h2>
+        <div class="card">
+            <h2>Marketing Digital 📈</h2>
+            <p>I am passionate about Digital Marketing.</p>
+        </div>
+
+        <div class="card">
+            <h2>Sport 🚴</h2>
+            <p>I am passionate about Sports.</p>
+        </div>
+
+        <div class="card social">
+            <h3>Follow me</h3>
             <ul>
-                <li>Sports (rowing machine and jump rope)</li>
-                <li>Content creation (YouTube, Instagram)</li>
-                <li>Web development (HTML, CSS, JavaScript)</li>
-            </ul>
-        </section>
-
-        <section class="projects">
-            <h2>Recent Projects</h2>
-            <ul>
-                <li><a href="#">Coach Rameur - Online training programs</a></li>
-                <li><a href="#">Buddyz - Connected pet tag</a></li>
-                <li><a href="#">YouTube Channel - Lucid Dreams</a></li>
-            </ul>
-        </section>
-
-        <footer>
-            <h3>Follow me on</h3>
-            <ul class="social">
                 <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="#">GitHub</a></li>
                 <li><a href="#">YouTube</a></li>
             </ul>
-        </footer>
+        </div>
     </div>
 </body>
 </html>
